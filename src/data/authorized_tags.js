@@ -1,0 +1,37 @@
+const userDefinedAuthorizedTags = {
+  "type:method": { "description": "Presents a novel algorithm or technique" },
+  "type:system": { "description": "Describes an implemented system" },
+  "type:survey": { "description": "Surveys existing literature" },
+  "type:study": { "description": "Includes user study or qualitative evaluation" },
+
+  "keywords:LLM": { "description": "Large Language Models" },
+  "keywords:transformer": { "description": "Transformer-based architecture" },
+  "keywords:dialogue-systems": { "description": "Conversational agents or assistants" },
+  "keywords:open-source": { "description": "Publicly available implementation" },
+  "keywords:pretraining": { "description": "Language model pretraining" },
+  "keywords:privacy": { "description": "User data privacy" },
+  "keywords:trust": { "description": "User trust and system transparency" },
+  "keywords:user-perception": { "description": "User attitude or evaluation" },
+  "keywords:multimodal-interaction": { "description": "Voice, face, gesture input" },
+  "keywords:HRI": { "description": "Human-Robot Interaction" },
+  "keywords:PEFT": { "description": "Parameter-Efficient Fine-Tuning" },
+  "keywords:LoRA": { "description": "Low-Rank Adaptation" },
+  "keywords:edge-AI": { "description": "AI deployed on edge devices" },
+  "keywords:quantization": { "description": "Model compression technique" },
+  "keywords:pruning": { "description": "Parameter reduction technique" },
+
+  "classification:llm-architecture": { "description": "focuses on LLMs or transformers" },
+  "classification:privacy-trust": { "description": "focuses on data privacy or user trust" },
+  "classification:edge-deployment": { "description": "involves edge AI or on-device execution" },
+  "classification:multimodal-interaction": { "description": "uses voice, face, or multiple input modes" },
+  "classification:evaluation": { "description": "evaluates system or user interaction" },
+
+  "series:ACL-Anthology": { "description": "ACL Anthology series" },
+  "series:NAACL": { "description": "North American Chapter of the ACL" },
+  "series:Elsevier": { "description": "Elsevier journal publisher" },
+  "series:Frontiers": { "description": "Frontiers in Neurorobotics" },
+  "series:ICMI": { "description": "International Conference on Multimodal Interaction" },
+  "series:Wiley": { "description": "Advanced Intelligent Systems by Wiley" },
+  "series:ACM": { "description": "ACM Computing Surveys" },
+  "series:arXiv": { "description": "arXiv preprints" }
+};
